@@ -14,7 +14,7 @@ import logger from './utils/logger';
 class server {
     app
 
-    constructor() {
+    sever() {
         this.app = express();
         this.config();
         this.routes()
